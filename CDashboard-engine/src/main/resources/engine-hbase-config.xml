@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <hbaseConfig>
+        <zookeeper>hbase  zookeeper address</zookeeper>
+        <basePath>/hbase</basePath>
+    </hbaseConfig>
+    <namespaces>
+        <namespace>
+            <name>ns-null</name>
+            <table>DASHBOARD_TS_DATA</table>
+        </namespace>
+    </namespaces>
+</config>

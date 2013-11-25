@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <metricNameCache>
+        <path>/opt/cache/dashboard/engine/dev/metrics/</path>
+        <size>8</size>
+    </metricNameCache>
+    <tagNameCache>
+        <path>/opt/cache/dashboard/engine/dev/tagnames/</path>
+        <size>16</size>
+    </tagNameCache>
+    <tagValueCache>
+        <path>/opt/cache/dashboard/engine/dev/tagvalues/</path>
+        <size>64</size>
+    </tagValueCache>
+</config>

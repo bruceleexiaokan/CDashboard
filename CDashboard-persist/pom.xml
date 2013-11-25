@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>CDashboard</artifactId>
+        <groupId>com.ctrip.framework.cdashboard</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ctrip.framework.cdashboard</groupId>
+    <artifactId>CDashboard-persist</artifactId>
+    <version>1.0.0</version>
+    <name>CDashboard-persist</name>
+    <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.ctrip.framework.cdashboard</groupId>
+            <artifactId>CDashboard-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ctrip.framework.cdashboard</groupId>
+            <artifactId>CDashboard-domain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.fusesource.leveldbjni</groupId>
+            <artifactId>leveldbjni-all</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ctrip.framework.cdashboard</groupId>
+            <artifactId>CDashboard-hbase-plugin</artifactId>
+        </dependency>
+    </dependencies>
+</project>
